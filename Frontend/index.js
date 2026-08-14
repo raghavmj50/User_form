@@ -11,7 +11,7 @@ document.getElementById("userForm").addEventListener("submit", async function(ev
         city: document.getElementById("city").value
     };
 
-    const response = await fetch("http://localhost:8080/user/details", {
+    const response = await fetch("https://user-form-k4zv.onrender.com/user/details", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
