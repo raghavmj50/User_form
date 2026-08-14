@@ -1,6 +1,5 @@
 document.getElementById("userForm").addEventListener("submit", async function(event) {
 
-    event.preventDefault();
 
     const data = {
         name: document.getElementById("name").value,
